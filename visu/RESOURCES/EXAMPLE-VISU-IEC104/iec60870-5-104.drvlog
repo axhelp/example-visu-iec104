@@ -1,0 +1,66 @@
+
+20.11.2019 17:23:07 Driver initialized correctly
+20.11.2019 17:23:10 InUse Variable Manager Enable : 0
+20.11.2019 17:23:10 Driver Started
+20.11.2019 17:23:11 Station 'Controller': End of initialization, COT(4,  initialized ), COI (0x00)
+20.11.2019 17:23:12 Communication established : station Controller
+20.11.2019 17:23:17 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(1)
+20.11.2019 17:23:41 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(2)
+20.11.2019 17:24:57 Shutting Down...
+20.11.2019 17:25:55 Driver initialized correctly
+20.11.2019 17:26:11 InUse Variable Manager Enable : 0
+20.11.2019 17:26:11 Driver Started
+20.11.2019 17:26:13 Station 'Controller': End of initialization, COT(4,  initialized ), COI (0x00)
+20.11.2019 17:26:13 Communication established : station Controller
+20.11.2019 17:26:33 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(2)
+20.11.2019 17:26:36 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(2)
+20.11.2019 17:27:08 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(1)
+20.11.2019 17:27:10 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(1)
+20.11.2019 17:27:30 Shutting Down...
+20.11.2019 17:29:30 Driver initialized correctly
+20.11.2019 17:29:32 InUse Variable Manager Enable : 0
+20.11.2019 17:29:33 Driver Started
+20.11.2019 17:29:34 Station 'Controller': End of initialization, COT(4,  initialized ), COI (0x00)
+20.11.2019 17:29:34 Communication established : station Controller
+20.11.2019 17:29:40 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(51)
+20.11.2019 17:31:22 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(51)
+20.11.2019 17:31:56 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(51)
+20.11.2019 17:31:56 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(52)
+20.11.2019 17:33:33 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(51)
+20.11.2019 17:33:34 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(52)
+20.11.2019 17:33:42 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(51)
+20.11.2019 17:33:53 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(52)
+20.11.2019 17:34:04 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(51)
+20.11.2019 17:37:06 Station quality changed : station Controller, quality bitfield 24
+20.11.2019 17:37:09 Station 'Controller': End of initialization, COT(4,  initialized ), COI (0x00)
+20.11.2019 17:37:14 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(51)
+20.11.2019 17:37:16 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(51)
+20.11.2019 17:37:22 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(51)
+20.11.2019 17:37:40 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(51)
+20.11.2019 17:38:03 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(51)
+20.11.2019 17:38:10 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(51)
+20.11.2019 17:38:13 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(51)
+20.11.2019 17:38:16 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(51)
+20.11.2019 17:38:19 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(51)
+20.11.2019 17:38:21 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(51)
+20.11.2019 17:38:34 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(51)
+20.11.2019 17:38:44 Shutting Down...
+20.11.2019 17:40:07 Driver initialized correctly
+20.11.2019 17:40:08 InUse Variable Manager Enable : 0
+20.11.2019 17:40:09 Driver Started
+20.11.2019 17:40:10 Station 'Controller': End of initialization, COT(4,  initialized ), COI (0x00)
+20.11.2019 17:40:10 Communication established : station Controller
+20.11.2019 17:40:16 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(51)
+20.11.2019 17:40:38 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(51)
+20.11.2019 17:41:26 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(51)
+20.11.2019 17:43:17 Station quality changed : station Controller, quality bitfield 24
+20.11.2019 17:43:20 Station 'Controller': End of initialization, COT(4,  initialized ), COI (0x00)
+20.11.2019 17:43:23 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(51)
+20.11.2019 17:43:26 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(52)
+20.11.2019 17:43:28 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(51)
+20.11.2019 17:43:28 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(52)
+20.11.2019 17:43:34 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(51)
+20.11.2019 17:43:35 Station 'Controller': Error Response, COT(47,  unknown information object address), TI(45), IOA(52)
+20.11.2019 17:45:37 Station quality changed : station Controller, quality bitfield 24
+20.11.2019 17:45:40 Station 'Controller': End of initialization, COT(4,  initialized ), COI (0x00)
+20.11.2019 17:46:30 Shutting Down...

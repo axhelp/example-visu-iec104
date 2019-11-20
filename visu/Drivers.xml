@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DriverList>
+
+<DriverFactory Factory="3S">
+  <Driver Name="CoDeSys" Description="CoDeSys"
+Help="Supported protocol: 3S TCP/IP Protocol supported by the PLCHandler library
+Activation Code License: Yes 
+Supported devices: 3S Software CoDeSys SoftPLC ver 2.3, ver. 3 and ELAU
+Other requirements: Ethernet board, GwClient.dll in the client and Supervisor system, 3S dll for connecting to version 3 PLC
+Supported device areas: All the external variables inside the symbol file exported by the PLC project
+Supported operating systems: WinCE, Win32/64
+Tag Importer: Yes
+Multiple devices: yes">CoDeSys.dll</Driver>
+</DriverFactory>
+
+<DriverFactory Factory="Beckhoff">
+  <Driver Name="TwinCAT" Description="Beckhoff ADS TwinCat"
+Help="Supported protocol: TwinCAT ADS protocol
+Activation Code License: No
+Supported devices: Beckhoff TwinCAT systems
+Other requirements: Beckhoff ADS software library 
+Supported device areas: Input, Output, Flag
+Supported operating systems: WinCE, Win32/64
+Tag Importer: Yes (.EXP file)">TwinCAT.dll</Driver>
+</DriverFactory>
+
+<DriverFactory Factory="B+R">
+  <Driver Name="B&amp;R PVI" Description="B+R System 2000 PVI" 
+Help="Supported protocol: INA2000 protocol
+Activation Code: No
+Supported devices: B&amp;R devices 
+Other requirements: B&amp;R PVI libraries, standard Ethernet or serial cable
+Tag Importer: No
+Supported operating systems: WinCE, Win32/64">BandRPvi.dll</Driver>
+</DriverFactory>
+
+<DriverFactory Factory="Control-Techniques">
+<Driver Name="Modbus TCPIP ControlTechniques" Description="Modbus Ethernet TCP-IP ControlTechniques" 
+Help="Supported protocol: standard Modbus TCP/IP + CMP protocol
+Activation Code: No (Free)
+Supported devices: all devices supporting Modbus TCP/IP protocol and Control Techniques devices supporting CMP protocol
+Other requirements: standard Ethernet card
+Supported device areas: Single Coils, Coils, Discrete Inputs, Single Register, Multiple Register, Input Register
+Tag Importer: Yes (.CSV file)
+Supported operating systems: WinCE, Win32
+Multiple devices: yes">ModbusTCPIP-ControlTechniques.dll</Driver>
+
+<Driver Name="Modbus Serial ControlTechniques" Description="Modbus Serial ControlTechniques"
+Help="Supported protocol: Modbus RTU + CMP protocol
+Activation Code: No (Free)
+Supported devices: serial devices supporting Modbus RTU serial protocol and Control Techniques devices supporting CMP protocol
+Other requirements: standard serial plug and cable
+Supported device areas: Single Coils, Coils, Discrete Inputs, Single Register, Multiple Register, Input Register
+Tag Importer: Yes (.CSV file)
+Supported operating systems: WinCE, Win32">Modbus-ControlTechniques.dll</Driver>
+</DriverFactory>
+
+<DriverFactory Factory="CTI">
+  <Driver Name="CTI 2500 Series Ethernet" Description="CTI 2500 Series TCP/IP"
+Help="Supported protocol: NITP, CAMP, TCP/IP 
+Activation Code License: No
+Supported devices: CTI 2500 Series controllers with Ethernet interface
+Other requirements: standard Ethernet cable
+Supported functions: Task Code 9D and 9E 
+Supported operating systems: WinCE, Win32/64
+Tag Importer: No
+Multiple devices: yes">CTITCP.dll</Driver>
+</DriverFactory>
+
+<DriverFactory Factory="GE General Electric">
+  <Driver Name="GE-Fanuc SRTP2" Description="GE General Electric protocol SRTP2"
+Help="Supported protocol: SRTP 2 protocol
+Activation Code License: No, Require License Option: No
+Supported devices: GE PLCs 90 series, GE Micro series 
+Other requirements:
+Supported areas: Register, Analog Input/Output, Discrete Input/Output, Discrete temporary, Discrete internal, Discrete Bytes, Genius Global Data 
+Tag Importer: No
+Supported operating systems: WinCE, Win32/64
+Multiple devices: yes">GESRTP2.dll</Driver>
+
+<Driver Name="GE-Fanuc SNP-X Serial" Description="General Electric SNP-X Serial"
+Help="Supported protocol: SNP-X protocol
+Activation Code License: No
+Supported devices: GE  PLCs 90 series, GE Micro series 
+Other requirements: Serial communication co-processor CMM 311 for the 90-30 series or CMM 711 for the 90-70 series
+Supported areas: Register, Analog Input/Output, Discrete Input/Output, Discrete temporary, Discrete internal, Discrete Bytes, Genius Global Data 
+Tag Importer: No
+Supported operating systems: WinCE, Win32/64
+Multiple devices: yes">GESNPXSerial.dll</Driver>
+</DriverFactory>
+
+<DriverFactory Factory="Hitachi">
+  <Driver Name="Hitachi Ethernet" Description="Hitachi Ethernet H-protocol" 
+  Help="Supported protocol: Hitachi Ethernet H-protocol 
+  Activation Code License: No 
+  Supported devices:  Hitachi EH-series devices, Hitachi EHV-series devices 
+  Other requirements: standard Ethernet card 
+  Supported device areas: External Input/output, Internal Output, CPU Link, Data Area, Loop Timers, Elapsed Count Clear,Timer Counter Elapsed Time, Rise Edge Detection, Fall Edge Detection 
+  Tag Importer: No 
+  Supported operating systems: WinCE, Win32/64 
+  Multiple devices: yes">Hitachi_Ethernet.dll</Driver>  
+</DriverFactory>
+
+<DriverFactory Factory="IEC 60870-5">
+<Driver Name="IEC 60870-5-104" Description="IEC 60870-5-104 Ethernet (Licensed)"
+Help="Supported protocol: IEC 60870-5-104 for remote controlled units RTU via TCP/IP
+Activation Code: Yes, protected
+Supported devices: RTU or PLCs supporting IEC 870-5-104 via TCP/IP networking.
+Other requirements: standard Ethernet cable 
+Supported device areas: Input/output
+Tag Importer: No
+Supported operating systems: WinCE, Win32
+Multiple devices: yes">IEC60870-5-104.dll</Driver>
+
+<Driver Name="IEC 60870-5-101 Unbalanced" Description="IEC 60870-5-101 Serial Unbalanced (Licensed)"
+Help="Supported protocol: IEC 60870-5-101 unbalanced serial communication for remote controlled units RTU 
+Activation Code: Yes, protected
+Supported devices: RTU or PLCs supporting IEC 870-5-101 via RS232 or RS485.
+Other requirements: RS-232 or RS-485 line 
+Supported device areas: Input/output
+Supported operating systems: WinCE, Win32
+Tag Importer: No
+Multiple devices: yes">IEC60870-5-101U.dll</Driver>
+</DriverFactory>
+
+<DriverFactory Factory="Mitsubishi">
+  <Driver Name="MELSEC-FX" Description="Mitsubishi MELSEC FX Series"
+Help="Supported protocol: point-to-point serial protocol 
+Activation Code License: No
+Supported devices: Mitsubishi MELSEC-FX and MELSEC-FX2N PLCs and compatible
+Other requirements: RS232/422 converter or Mitsubishi PLC programming cable (RS232/422 converter integrated).
+Supported device areas: Input, Output, Step Relay, Internal Relay, Timer, Counter, Data Register
+Tag Importer: Yes
+Supported operating systems: WinCE, Win32/64">MelsecFX.dll</Driver>
+
+  <Driver Name="MELSEC-FX3U TCP" Description="Mitsubishi MELSEC FX3U-TCP"
+Help="Supported protocol: TCP/IP protocol
+Activation Code License: No
+Supported devices: Mitsubishi MELSEC-FX3U PLCs 
+Other requirements: Ethernet module FX3u-ENET, FX Configurator-EN software
+Supported device areas: Input, Output, State, Internal Relay, Timer, Counter, Data Register, Extension Register
+Tag Importer: Yes
+Supported operating systems: Win32/64 (No WinCE)
+Multiple devices: yes">MelsecFXTCP.dll</Driver>
+
+  <Driver Name="MELSEC-Q Serial Format 1" Description="Mitsubishi MELSEC Q-Series, Serial Format 1"
+Help="Supported protocol: Format 1 with checksum serial protocol
+Activation Code License: No
+Supported devices: Mitsubishi MELSEC-Q PLCs 
+Other requirements: QJ71C24 communication module
+Supported device areas: Input, Output, Step Relay, Internal Relay, Latch Relay, Link Relay, Special Relay, Annunciator, Timer, Counter, Data Register, Link Register, Special Link Register, Special Register, File Register 
+Tag Importer: Yes
+Supported operating systems: WinCE, Win32/64
+Multiple devices: yes">QJ71C24.dll</Driver>
+
+  <Driver Name="MELSEC-Q TCP" Description="Mitsubishi MELSEC Q-Series Ethernet TCP"
+Help="Supported protocol: TCP/IP protocol
+Activation Code License: No
+Supported devices: Mitsubishi MELSEC-Q PLCs 
+Other requirements: QJ71E71 Ethernet communication module
+Supported device areas: Input, Output, Step Relay, Internal Relay, Latch Relay, Link Relay, Special Relay, Annunciator, Timer, Counter, Data Register, Link Register, Special Link Register, Special Register, File Register 
+Tag Importer: Yes
+Supported operating systems: WinCE, Win32/64
+Multiple devices: yes">QJ71E71_TCP.dll</Driver>
+</DriverFactory>
+
+<DriverFactory Factory="Modbus">
+<Driver Name="Modbus TCPIP" Description="Modbus Ethernet TCP-IP" 
+Help="Supported protocol: standard Modbus TCP/IP
+Activation Code: No (Free)
+Supported devices: all devices supporting Modbus TCP/IP protocol
+Other requirements: standard Ethernet card
+Supported device areas: Single Coils, Coils, Discrete Inputs, Single Register, Multiple Register, Input Register
+Tag Importer: Yes (.CSV file)
+Supported operating systems: WinCE, Win32
+Multiple devices: yes">ModbusTCPIP.dll</Driver>
+
+<Driver Name="Modbus Serial" Description="Modbus Serial RTU"
+Help="Supported protocol: Modbus RTU or Modbus ASCII protocol as Master
+Activation Code: No (Free)
+Supported devices: serial devices supporting Modbus RTU serial protocol
+Other requirements: standard serial plug and cable
+Supported device areas: Single Coils, Coils, Discrete Inputs, Single Register, Multiple Register, Input Register
+Tag Importer: Yes (.CSV file)
+Supported operating systems: WinCE, Win32">Modbus.dll</Driver>
+
+  <Driver Name="Modbus Serial Slave" Description="Modbus RTU and ASCII, Serial Slave"
+Help="Supported protocol: Modbus RTU or Modbus ASCII protocol as Slave
+Activation Code License: No
+Supported devices: serial devices supporting Modbus serial protocol as Master
+Other requirements: standard serial plug and cable
+Supported device areas: Coils, Discrete Inputs, Holding Registers, Input Registers
+Tag Importer: Yes (.CSV file)
+Supported operating systems: WinCE, Win32/64">ModbusSlave.dll</Driver>
+</DriverFactory>
+
+<DriverFactory Factory="Omron">
+<Driver Name="FINS Ethernet" Description="Omron FINS Ethernet"
+Help="Supported protocol: Omron FINS Ethernet protocol
+Activation Code: No, Require License Option: No
+Supported devices: Omron PLCs
+Other requirements: standard Ethernet cable
+Supported device areas: CIO, Holding Bit, Auxiliary Bit, Data Memory, Timer, Counter, Work, Expansion Data
+Tag Importer: Yes
+Supported operating systems: WinCE, Win32
+Multiple devices: yes">OmronFinsEthernet.dll</Driver>
+
+  <Driver Name="OmronEIP" Description="OMRON NJ EtherNet/IP"
+Help="Supported protocol: EtherNet/IP protocol
+Activation Code License: No
+Supported devices: OMRON NJ Series
+Other requirements: standard Ethernet cable
+Supported device areas: Input, Output, Status, Binary, Timer, Counter, Integer, Float
+Tag Importer: Yes
+Supported operating systems: WinCE, Win32/64
+Multiple devices: yes">OmronEIP.dll</Driver>
+
+  <Driver Name="Host Link" Description="Omron Host Link Protocol"
+Help="Supported protocol: Host Link protocol
+Activation Code License: No
+Supported devices: Omron PLCs
+Other requirements: Omron serial cable
+Supported device areas: CIO, Holding Bit, Auxiliary Bit, Data Memory, Timer, Counter, Work, Expansion Data, LR
+Tag Importer: Yes
+Supported operating systems: WinCE, Win32/64
+Multiple devices: yes">OmronHostLink.dll</Driver>
+</DriverFactory>
+
+<DriverFactory Factory="Panasonic">
+  <Driver Name="NAIS FP MEWTOCOL" Description="PANASONIC NAIS FP MEWTOCOL"
+Help="Supported protocol: MEWTOCOL protocol - serial and Ethernet communication
+Activation Code License: No
+Supported devices: Panasonic PLCs NAIS-FP series 
+Other requirements: FPWIN GR/PRO programming software for PLC configuration; FP-WEB Server or FP2 ET-LAN unit for Ethernet communication
+Supported device areas: Discrete Input/Output, Internal Relay, Link Relay, Data Register, File Register, Link Data Register, Timer/Counter Set Value and Elapsed Value
+Supported operating systems: WinCE, Win32/64
+Tag Importer: Yes
+Multiple devices: yes">NaisFp.dll</Driver>
+</DriverFactory>
+
+<DriverFactory Factory="Phoenix Contact">
+<Driver Name="Phoenix Contact Hardware Access" Description="Phoenix Contact hardware to access"
+Help="This driver is for use with WinCE TP devices only!
+Supported protocol: Phoenix Contact Panel WINCE Plattform .
+Activation Code: No (Free).
+Supported devices: Phoenix Contact Grafiken Pannel.
+Tag Importer: Yes, all variables of Phoenix Contact's hardware.
+Supported operating systems: WinCE.">SuetronHWAccess.dll</Driver>
+
+<Driver Name="Phoenix Contact PLCI BTP 2K" Description="PhoenixContact/PLCI BTP 2K"
+Help="Supported protocol: Phoenix Contact PLC  protocol over IP.
+Activation Code License: No
+Supported devices: Any devices supporting PhoenixContact PLCI 
+Other requirements: standard Ethernet cable
+Supported device data objects: BOOL ,BYTE, DINT, DWORD, INT, LREAL, REAL, SINT, STRING, TIME, UDINT, UINT, USINT and WORD. 
+Supported operating systems: Win32/64, Windows CE 6 
+Tag Importer: Yes
+Multiple devices: Yes">PhoenixContactPLCI_BTP_2K.dll</Driver>
+</DriverFactory>
+
+<DriverFactory Factory="RockWell Automation">
+  <Driver Name="DF1 Protocol" Description="Allen Bradley DF1 Protocol"
+Help="Supported protocol: Allen Bradley DF1 serial protocol
+Activation Code License: No
+Supported devices: Rockwell Allen Bradley PLC-5, SLC-500, MicroLogix, ControlLogix, CompactLogix and FlexLogix 
+Other requirements: AB communication interface for multi drop communication
+Supported device areas: Input, Output, Status, Binary, Timer, Counter, Integer, Float
+Tag Importer: Yes
+Supported operating systems: WinCE, Win32/64
+Multiple devices: yes">ABDF1X.dll</Driver>
+
+<Driver Name="EtherNetIP" Description="Allen Bradley EtherNetIP"
+Help="Supported protocol: EtherNet/IP protocol
+Activation Code: No (Free)
+Supported devices: Rockwell Allen Bradley PLC-5, SLC-500, MicroLogix, ControlLogix, CompactLogix and FlexLogix 
+Other requirements: standard Ethernet cable
+Supported device areas: Input, Output, Status, Binary, Timer, Counter, Integer, Float
+Tag Importer: Yes
+Supported operating systems: WinCE, Win32
+Multiple devices: yes">EtherNetIP.dll</Driver>
+</DriverFactory>
+
+<DriverFactory Factory="Saia-Burgess">
+  <Driver Name="Saia Data Mode" Description="Saia PCD Direct Driver"
+Help="Supported protocol: S-BUS Ethernet, Serial 
+Activation Code License: No
+Supported devices: All Saia PLCs, PCD Series
+Other requirements: RS232 cable or standard Ethernet cable
+Supported device areas: Input, Output, Flag, Register, Timer, Counter, Data Block
+Tag Importer: No
+Supported operating systems: Win32/64, WinCE
+Multiple devices: yes">SaiaDataMode.dll</Driver>
+</DriverFactory>
+
+<DriverFactory Factory="Schneider Group">
+  <Driver Name="Modbus Serial" Description="Modbus Serial RTU" 
+Help="Supported protocol: Modbus RTU or Modbus ASCII protocol as Master
+Activation Code License: No
+Supported devices: Modicon Premium, Quantum, Micro and all devices supporting ModBus serial protocol
+Other requirements: standard serial plug and cable
+Supported device areas: Single Coils, Coils, Discrete Inputs, Single Register, Multiple Register, Input Register
+Tag Importer: Yes
+Supported operating systems: WinCE, Win32/64">ModBus.dll</Driver>
+
+  <Driver Name="Modbus TCPIP" Description="Modbus Ethernet TCP-IP" 
+Help="Supported protocol: standard ModBus TCP/IP
+Activation Code License: No
+Supported devices: Modicon Premium, Quantum, Micro and all devices all devices supporting Modbus TCP/IP protocol
+Other requirements: standard Ethernet card
+Supported device areas: Single Coils, Coils, Discrete Inputs, Single Register, Multiple Register, Input Register
+Tag Importer: Yes
+Supported operating systems: WinCE, Win32/64
+Multiple devices: yes">ModBusTCPIP.dll</Driver> 
+</DriverFactory>
+
+<DriverFactory Factory="Siemens">
+  <Driver Name="PPI" Description="Simatic S7-200 PPI"
+Help="Supported protocol:S7-PPI protocol
+Activation Code License: No
+Supported devices: Siemens SIMATIC PLCs S7-200 and compatible
+Other requirements: Siemens S7 PPI PC Adapter or compatible, standard serial plug and cable\r\n 
+Supported device areas: Input, Output, Merker, Data, Timer, Counter, High Speed Counter, Variable Memory, System Flags, Analog Input and Output
+Tag Importer: Yes (SIMATIC S7 .AWL, .SDF)
+Supported operating systems: WinCE, Win32/64
+Multiple devices: yes">PPI.dll</Driver>
+
+<Driver Name="S7 TCP" Description="Ethernet S7-300/400 TCP"
+Help="Supported protocol: TCP protocol
+Activation Code: No (Free)
+Supported devices: Siemens SIMATIC PLCs S7-300/400 series, VIPA System 200V, 300V, 300S
+Other requirements: Ethernet board
+Supported device areas: Input, Output, Merker, Timer, Counter, Peripheries and Data (300/400 only), High Speed counters and Variable Memory (200 only)
+Tag Importer: Yes (SIMATIC S7 .AWL, .SDF)
+Supported operating systems: WinCE, Win32
+Multiple devices: yes">S7TCP.dll</Driver>
+
+<Driver Name="S7 TIA Symbolic" Description="Ethernet S7-1200/1500 TCP"
+Help="Supported protocol: S7-TCP/IP TIA
+Activation Code: No, Require License Option: No
+Supported devices: Siemens SIMATIC PLCs S7-1200/1500 series
+Other requirements: Ethernet board
+Tag Importer: Yes (files *.ap11 *.ap12, *.ap13)
+Supported operating systems: Win32
+Multiple devices: yes">S7TIASymbolic.dll</Driver>
+</DriverFactory>
+
+<DriverFactory Factory="Systeme Helmholz">
+  <Driver Name="S7 TCP" Description="Ethernet S7-300/400 TCP"
+Help="Supported protocol: TCP protocol
+Activation Code License: No
+Supported devices: Siemens SIMATIC PLCs S7-300/400 series, VIPA System 200V, 300V, 300S
+Other requirements: Helmholz NETLink PRO Compact, Helmholz NETLink PRO
+Supported device areas: Input, Output, Merker, Timer, Counter, Peripheries and Data (300/400 only), High Speed counters and Variable Memory (200 only)
+Tag Importer: Yes (SIMATIC S7 .AWL, .SDF)
+Supported operating systems: WinCE, Win32/64
+Multiple devices: yes">S7TCP.dll</Driver>
+</DriverFactory>
+
+<DriverFactory Factory="Special Drivers">
+  <Driver Name="LecomAB" Description="Lenze LecomAB"
+Help="Supported protocol: serial protocol
+Supported devices: Lenze frequency converters
+Activation Code License: No
+Other requirements: Lecom A/B communication module, RS232 connection or RS485 serial bus or optical fibre connection
+Supported device areas: all parameters present in the controller
+Tag Importer: No
+Multiple devices: yes, with RS232/RS485 smart converter or optical fiber connection
+Supported operating systems: WinCE, Win32/64
+
+WARINING:
+This Diver has a limited warranty and could be not completely supported by Progea Support Team. 
+Before use it, you should check if the manufacturer still support the hardware devices, or contact 
+Progea for more information.">LecomAB.dll</Driver>
+
+  <Driver Name="S5 CPU" Description="Simatic S5-AS511 Programmation Port"
+Help="Supported protocol: AS511 serial point-to-point protocol 
+Activation Code License: No
+Supported devices: Siemens SIMATIC S5 family CPUs on current loop port
+Other requirements: converter between RS-232 interface and current loop (TTY) interface
+Supported device areas: Data Block
+Tag Importer: No
+Supported operating systems: WinCE, Win32/64
+Multiple devices: no
+
+WARINING:
+This Diver has a limited warranty and could be not completely supported by Progea Support Team. 
+Before use it, you should check if the manufacturer still support the hardware devices, or contact 
+Progea for more information.">S5CPU.dll</Driver>
+
+  <Driver Name="SUCOM Driver" Description="Moeller PLC, SUCOM Protocol"
+Help="Supported protocol: Moeller SUCOM serial protocol
+Activation Code License: No
+Supported devices: Moeller PLCs PS4-200, PS300 and PS400 series 
+Other requirements: RS232/485 converter
+Supported device areas: Merker
+Tag Importer: No
+Supported operating systems: WinCE, Win32/64
+
+WARINING:
+This Diver has a limited warranty and could be not completely supported by Progea Support Team. 
+Before use it, you should check if the manufacturer still support the hardware devices, or contact 
+Progea for more information.">Sucom.dll</Driver>
+
+  <Driver Name="Uni-Telway Slave" Description="Telemecanique Uni-Telway Slave"
+Help="Supported protocol: Uni-Telway slave protocol
+Activation Code License: No
+Supported devices: Schneider Telemecanique PLCs and Uni-Telway protocol compliant devices
+Other requirements: smart RS232/RS485 converter (Schneider programming cable integrated converter not supported)
+Supported device areas: Internal flags
+Tag Importer: No
+Supported operating systems: WinCE, Win32/64
+Multiple devices: yes
+
+WARINING:
+This Diver has a limited warranty and could be not completely supported by Progea Support Team. 
+Before use it, you should check if the manufacturer still support the hardware devices, or contact 
+Progea for more information.">UnitelWay.dll</Driver>
+
+  <Driver Name="JetIP" Description="Jetter JetIP"
+Help="Supported protocol: Pcom7 on UDP
+Activation Code License: Yes
+Supported devices: JC-241, JC-243, JC-246, JC-647, JetMove
+Other requirements:  standard Ethernet card
+Supported device areas: Registers, Flags, Inputs, Outputs
+Additional commands: Read PLC model, Start, Stop
+Tag Importer: No
+Supported operating systems: WinCE, Win32/64
+Multiple devices: yes
+
+WARINING:
+This Diver has a limited warranty and could be not completely supported by Progea Support Team. 
+Before use it, you should check if the manufacturer still support the hardware devices, or contact 
+Progea for more information.">JetterPcom7Ethernet.dll</Driver>
+</DriverFactory>
+</DriverList>

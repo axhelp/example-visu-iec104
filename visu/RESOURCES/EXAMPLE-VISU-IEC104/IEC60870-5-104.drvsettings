@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<DriverSettings>
+<GeneralSettings WaitTime="0" TimeOut="2000" SynchroStart="false" MinimumJobThreshold="5" DefRefreshTimeNotInUse="0" EnableCOMInterface="true" PollingTime="0" PollingTimeNotInUse="0" PriorityProtocolThread="0" BaseClassBuild="282" DriverVersion="184615944" AggregationLimit="0" DirectWriteIO="false" SetInUseStructureFields="false" SuspendTasksInError="true" szWinCEProtocolPriority="-1" ExpandGroup1="1"/>
+<Debug DebugWindow="true" MaxLogEntries="10000" LogFileName="" EnableLogFile="true" ExpandGroup2="1"/>
+<IECDriverSettings DriverLicenceCode="" OriginatorAddress="1" InitializationTimeOut="20" RepeatInitialInterrogation="false" EnableInitialClockSynchronization="true" EnableInitialCounterInterrogation="true" ExpandIEC60870_5Group1="1"/>
+<JobList>
+<Job>
+<Name Type="1" Station="Controller" PollingTime="0" PollingTimeNotInUse="0" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="false" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="1">SwitchClosed1</Name>
+<VariableList V0="SwitchClosed1"/>
+<IECTaskSettings ASDUType="1" MonitorIOA="1" ControlIOA="51" CommandQualifier="0" ParameterQualifier="0" CommandAction="3" COTVariable="" QualityVariable="" UpdateTimeStamp="false" WriteTimeStamp="false" SelectBeforeExecute="false" ExpandIEC60870_5Group1="1"/>
+</Job>
+</JobList>
+<StationList>
+<Station>
+<Name MaxRetries="0" StateVariable="" ExpandGroup1="1">Controller</Name>
+<Server ServerAddress="192.168.1.102" ServerPort="2404" BackupServerAddress="" SwitchServerTimeout="10000" LocalBoundAddress="" LocalBoundPort="0" UsePing="false" ExpandTcpGroup1="1"/>
+<Queue MaxReceive="1024" MaxSend="1024" ExpandTcpGroup2="0"/>
+<Timeouts RxTimeout="5000" TxTimeout="5000" ExpandTcpGroup3="0"/>
+<RASSettings PhoneBookEntry="" PhoneNumber="" UserName=" " Password=" " Retries="3" DisconnectAfterSecs="10" EnableRASCallOnThisStation="false" PromptForConnection="false" RetryAfterSecs="30" DialOnlyOnCommand="false" ExpandRasGroup1="0"/>
+<IEC60870-5-104-StationSettings CommonAddress="2" MaxOutAPDU="12" MaxInAPDU="8" MissingAckTimeout="15000" NoInMsgTimeout="10000" NoActivityTimeout="20000" EnablePeriodicReset="false" ExpandBalancedTCPIPGroup1="1"/>
+</Station>
+</StationList>
+</DriverSettings>

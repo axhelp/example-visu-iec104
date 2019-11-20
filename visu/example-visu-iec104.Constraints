@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Constraints>
+	<MaxNumVariables>256</MaxNumVariables>
+	<MaxNumScreens>16</MaxNumScreens>
+	<MaxNumScripts>4</MaxNumScripts>
+	<AllowScriptInScreen>1</AllowScriptInScreen>
+	<AllowILInScreen>1</AllowILInScreen>
+	<MaxNumScreenObjects>128</MaxNumScreenObjects>
+	<MaxScreenSizeCx>800</MaxScreenSizeCx>
+	<MaxScreenSizeCy>800</MaxScreenSizeCy>
+	<MaxDaysAgeHistoric>7</MaxDaysAgeHistoric>
+</Constraints>

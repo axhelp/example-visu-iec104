@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<DriverSettings>
+<GeneralSettings WaitTime="0" TimeOut="2000" SynchroStart="false" MinimumJobThreshold="5" DefRefreshTimeNotInUse="10000" EnableCOMInterface="false" PollingTime="2000" PollingTimeNotInUse="0" PriorityProtocolThread="0" BaseClassBuild="259" DriverVersion="50331653" AggregationLimit="0" DirectWriteIO="false" SetInUseStructureFields="false" SuspendTasksInError="true" ExpandGroup1="0"/>
+<Debug DebugWindow="false" MaxLogEntries="10000" LogFileName="" EnableLogFile="false" ExpandGroup2="0"/>
+<SuetronHWAccessDriverSettings DriverVersion="3, 0, 0, 5"/>
+<JobList/>
+<StationList>
+<Station>
+<Name MaxRetries="1" StateVariable="" ExpandGroup1="0">Default Station</Name>
+<SuetronHWAccessStationSettings/>
+</Station>
+</StationList>
+</DriverSettings>

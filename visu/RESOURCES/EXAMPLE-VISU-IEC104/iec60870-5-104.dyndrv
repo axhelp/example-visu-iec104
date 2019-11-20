@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<DrvDynSettings>
+<dyndrv>Sta=Controller|ASDU=1|IOAM=2|IOAC=52|QOC=0|QOP=0|CA=3|UTS=0|WTS=0</dyndrv>
+</DrvDynSettings>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<OPCClientEditor>
+<OPCUAClientData StartupWaitTimeout="30000" DiscoveryUrl="opc.tcp://localhost:4840"/>
+<OPCUAList/>
+</OPCClientEditor>
